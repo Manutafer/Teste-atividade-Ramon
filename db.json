@@ -1,0 +1,117 @@
+{
+    "produtos": [
+        {
+            "id": "2",
+            "nome": "Camiseta atualizada",
+            "descricao": "Camiseta de algodão",
+            "preco": 30,
+            "categoria_id": 2,
+            "imagem": "camiseta.jpg"
+        },
+        {
+            "id": "3",
+            "nome": "Vaso de Flores",
+            "descricao": "Vaso de flores decorativo",
+            "preco": 50,
+            "categoria_id": 3,
+            "imagem": "vaso_flores.jpg"
+        },
+        {
+            "id": "8ddacef6-ada4-467c-801a-c497492f2339",
+            "nome": "teste",
+            "descricao": "Smartphone de última geração",
+            "preco": 1500,
+            "imagem": "Smartphone.jpg"
+        },
+        {
+            "id": "acc7c850-1998-4d1b-9d40-1de20fe83876",
+            "nome": "cadeira",
+            "descricao": "cadeira de madeira",
+            "preco": 45,
+            "imagem": "cadeira.jpg"
+        },
+        {
+            "nome": "Produto Teste",
+            "descricao": "Descrição do produto teste",
+            "preco": 100,
+            "id": "a722d134-c806-435b-8b95-ad3879112be3"
+        }
+    ],
+    "clientes": [
+        {
+            "id": "2",
+            "nome": "Maria Oliveira",
+            "email": "maria.oliveira@example.com",
+            "senha": "abcdef",
+            "endereco": {
+                "rua": "Rua das Flores",
+                "numero": 456,
+                "bairro": "Jardim",
+                "cidade": "Rio de Janeiro",
+                "estado": "RJ",
+                "cep": "98765-432"
+            }
+        },
+        {
+            "nome": "aline ee",
+            "email": "aline@example.com",
+            "senha": "1234",
+            "endereco": {
+                "rua": "rua do lado",
+                "numero": 1243,
+                "bairro": "colonia",
+                "cidade": "São jose",
+                "estado": "SC",
+                "cep": "06234-567"
+            },
+            "id": "5b5cb344-9552-467d-8da4-e2e84aacfedc"
+        },
+        {
+            "nome": "Bárbara Linda",
+            "email": "babi@example.com",
+            "senha": "$2a$10$u4eUw2pen0BB.dv3y8XCEurUMqdWtBjibrw53K5Zb4H7QezEcUnyO",
+            "endereco": {
+                "rua": "rua dodo",
+                "numero": 1243,
+                "bairro": "colonia",
+                "cidade": "São jose",
+                "estado": "SC",
+                "cep": "06334-567"
+            },
+            "id": "c06a738a-65e0-44ad-89d0-436f7f734704"
+        }
+    ],
+    "pedidos": [
+        {
+            "id": "1",
+            "cliente_id": "1",
+            "data_pedido": "2022-01-01",
+            "status": "pendente",
+            "itens": [
+                {
+                    "produto_id": "1",
+                    "quantidade": 2,
+                    "preco_unitario": 1500
+                },
+                {
+                    "produto_id": "2",
+                    "quantidade": 1,
+                    "preco_unitario": 30
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "cliente_id": "2",
+            "data_pedido": "2022-01-15",
+            "status": "entregue",
+            "itens": [
+                {
+                    "produto_id": "3",
+                    "quantidade": 1,
+                    "preco_unitario": 50
+                }
+            ]
+        }
+    ]
+}
